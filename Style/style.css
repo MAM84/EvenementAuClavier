@@ -1,0 +1,220 @@
+﻿*{
+    margin:0px;
+}
+
+/* Critères de scroll */
+body{
+    overflow-x:hidden
+}
+
+/*Style de la partie header*/
+header{
+    background-color:#3480be;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.divHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 200px;
+    margin-right: 200px;
+    max-width: 1180px;
+}
+
+header p{
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    color:white;
+}
+
+header a{
+    font-family: 'Arial', sans-serif;
+    color:white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+header nav :hover{
+    color:#04223b;
+}
+
+/*Style des titres*/
+h1{
+    font-family: 'Raleway', sans-serif;
+    color: #235680;
+    font-weight:bold;
+    font-size:60px;
+    margin-top:80px;
+    margin-bottom: 0px;
+    max-width: 900px;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    color: #235680;
+    font-weight:lighter;
+    font-size:50px;
+    max-width: 1180px;
+}
+
+.h2Section1{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.h2Section2{
+    margin-left: 150px;
+    display: inline-block;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+h3{
+    font-family: 'Arial', sans-serif;
+    color:#333333;
+    font-size:25px;
+    font-weight:lighter;
+    margin-top:50px;
+}
+
+/*Style des boutons*/
+input[type="button"]{
+    margin-top: 10px;
+    width:130px;
+    height: 40px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 5px;
+}
+
+.buttun1{
+    color:white;
+    background:#5a9deb;
+    border: none;
+}
+
+.buttun2{
+    color:#5a9deb;
+    border-color:#5a9deb;
+    background: white;
+}
+
+/*Style de la section 1*/
+.divSection1{
+    background-image: url("../Img/bg.gif");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pSection1{
+    font-family: 'Arial', sans-serif;
+    color: #235680;
+    font-style: italic;
+    font-size:18px;
+    max-width: 1180px;
+    margin-top: 20px;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+.buttunSection1{
+    text-align: center;
+    background-color:white;
+    margin-bottom: 70px;
+}
+
+/*Style de la section 2*/
+.section2{
+    background-color: #f5f5f5;
+}
+
+hr{
+    color:#5a9deb;
+    width: 110px;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.pSection2{
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+    font-size:16px;
+    margin-top: 25px;
+}
+
+.buttunSection2{
+    margin-top:25px;
+    margin-bottom: 80px;
+}
+
+.flexSection2Bloc1{
+    display: flex;
+    flex-direction: column;
+    max-width: 405px;
+}
+
+.flexSection2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1180px;
+    margin-left: 150px;
+}
+
+.imgSection2{
+    margin-top:50px;
+    max-width: 545px;
+}
+
+/*Style de la partie footer*/
+.footer1{
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.imgFooter{
+    margin-left: 150px;
+    margin-right:200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}    
+
+.imgFooter2{
+    max-height: 35px;
+}
+   
+.footer2{
+    background-color:#3480be;
+    height: 100px;
+    font-family: 'Arial', sans-serif;
+    color:white;
+    font-size:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav :link{
+    font-family: 'Arial', sans-serif;
+    color:white;
+}
+
+footer a{
+    font-family: 'Arial', sans-serif;
+    color:white;
+}
+
+footer nav :hover{
+    color:#04223b;
+}
+
